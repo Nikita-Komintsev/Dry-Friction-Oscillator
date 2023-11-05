@@ -26,7 +26,7 @@ plt.figure()
 plt.plot(theta_linear, omega_linear, 'b', label='Линейная система (затухание < 2*omega0)')
 plt.xlabel('Угол отклонения')
 plt.ylabel('Угловая скорость')
-plt.legend(loc='best')
+# plt.legend(loc='best')
 plt.grid()
 plt.title('Фазовый портрет с затуханием меньше критического')
 
